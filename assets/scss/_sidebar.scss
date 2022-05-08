@@ -1,47 +1,55 @@
 .menu a {
     display: block;
-    font-size: 1.5rem;
-    padding: 1rem 1.5rem;
+    font-size: 20px;
+    padding: 20px 30px;
     color: #6e6e6e;
     text-decoration: none;
   }
   img{
-      width: 100%;
+    width: 100%;
   }
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    background: #ffffff;
-    width: 100%;
+    width: 155px;
     height: 100%;
-    transform: translateY(-100%);
+    transform: translateY(100%);
+    background-color: white;
   }
   
   .show-sidebar {
     transform: translate(0);
+    transition: 0.8s;
   }
   
   .fa-bars {
     position: fixed;
     top: 30px;
     left: 30px;
-    color: #9a83bd;
+    color: #ffffff;
     cursor: pointer;
     font-size: xx-large;
   }
+  .fa-bars:hover{
+    color: rgb(31, 163, 219);
+    transition: 0.4s;
+  }
   
   .fa-times {
-    color: #5c1bbe;
+    color: #000000;
     cursor: pointer;
     right: 20px;
    font-size: xx-large;
   }
-  
+  .fa-times:hover{
+    color: rgb(31, 163, 219);
+    transition: 0.4s;
+  }
+
   .sidebar-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 30px;
   }
   
